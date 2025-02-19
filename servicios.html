@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios - Portafolio Multimedia</title>
+    <style>
+        /* Reset y estilos globales */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #121212;
+            color: white;
+            text-align: center;
+        }
+
+        /* Encabezado */
+        header {
+            background: linear-gradient(45deg, #e9b60d, #ebdd18);
+            padding: 20px;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        /* Sección de servicios */
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px 10px;
+        }
+
+        .service-item {
+            background: #1e1e1e;
+            border-radius: 10px;
+            overflow: hidden;
+            max-width: 300px;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .service-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(255, 255, 255, 0.2);
+        }
+
+        .service-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .service-item h2 {
+            margin: 15px 0 10px;
+            font-size: 1.5em;
+            color: #ff4b2b;
+        }
+
+        .service-item p {
+            font-size: 1em;
+            color: #bbb;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1e1e1e;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        a {
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+          
+        <h1>Servicios Multimedia</h1>
+        <p>Creación de contenido visual, edición de video, animación y más</p>
+    </header>
+    <a href="index.html">Inicio</a>
+</nav>
+
+    <main class="services">
+        <div class="service-item">
+            <img src="/img/edicion.jpg" alt="Edición de Video">
+            <h2>Edición de Video</h2>
+            <p>Montaje profesional con efectos dinámicos y corrección de color.</p>
+        </div>
+        <div class="service-item">
+            <img src="/img/anima.jpg" alt="Animación y Motion Graphics">
+            <h2>Animación & Motion Graphics</h2>
+            <p>Diseño de animaciones en 2D/3D para videos impactantes.</p>
+        </div>
+        <div class="service-item">
+            <img src="/img/design.jpg" alt="Diseño Gráfico">
+            <h2>Diseño Gráfico</h2>
+            <p>Creación de logotipos, banners, flyers y material visual.</p>
+        </div>
+        <div class="service-item">
+            <img src="/img/photo.jpg" alt="Fotografía y Retoque">
+            <h2>Fotografía y Retoque</h2>
+            <p>Fotografía profesional con edición avanzada y retoque digital.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mi Portafolio Multimedia - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>

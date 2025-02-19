@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotografía Creativa</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1e1e1e;
+            color: #fff;
+        }
+        header {
+            background: linear-gradient(135deg, #0072ff, #00c6ff);
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #2c2c2c;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #0072ff;
+        }
+        .flexbox {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .image-box {
+            flex: 1 1 300px;
+            background: #444;
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .cta {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .cta a {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #0072ff;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .cta a:hover {
+            background: #00c6ff;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>Fotografía Creativa</header>
+    <div class="container">
+        <div class="section">
+            <h2>1. Aprende a Componer Tus Fotos</h2>
+            <p>La composición es la base de una buena fotografía...</p>
+        </div>
+        <div class="section">
+            <h2>2. Juega con la Luz</h2>
+            <p>Experimenta con diferentes tipos de iluminación para mejorar tus fotos...</p>
+        </div>
+        <div class="section">
+            <h2>3. Enfócate en los Detalles</h2>
+            <p>Captura pequeños detalles para lograr fotos más interesantes...</p>
+        </div>
+        <div class="section flexbox">
+            <div class="image-box">
+                <img src="/img/compos.avif" alt="Ejemplo de composición">
+            </div>
+            <div class="image-box">
+                <img src="/img/luz.jpg" alt="Ejemplo de luz en fotografía">
+            </div>
+        </div>
+        <div class="section">
+            <h2>4. Edita Tus Fotos</h2>
+            <p>Usa herramientas gratuitas como Snapseed o Darktable para mejorar tus imágenes...</p>
+        </div>
+        <div class="section">
+            <h2>5. Cuenta una Historia</h2>
+            <p>Piensa en qué quieres transmitir con cada fotografía...</p>
+        </div>
+        <div class="cta">
+            <a href="#">¡Comparte tu mejor foto!</a>
+        </div>
+    </div>
+</body>
+</html>
